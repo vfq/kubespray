@@ -46,7 +46,7 @@ files_repo: "https://files.m.daocloud.io"
 EOF
 
 # Review and change parameters under ``inventory/mycluster/group_vars``
-cat inventory/mycluster/group_vars/all/all.yml
+cat inventory/mycluster/group_vars/all/kubespray.yml
 cat inventory/mycluster/group_vars/k8s_cluster/k8s-cluster.yml
 
 # Deploy Kubespray with Ansible Playbook - run the playbook as root
